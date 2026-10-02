@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Multiplication</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Matrix Multiplication</h1>
+
+  <div class="size-area">
+    <p>
+      Matrix A size:
+      <input type="text" id="matrixASize" placeholder="e.g. 3x3">
+    </p>
+
+    <p>
+      Matrix B size:
+      <input type="text" id="matrixBSize" placeholder="e.g. 3x3">
+    </p>
+
+    <p class="info">
+      Enter the size as rows x columns (e.g. 2x3).
+      The number of columns in Matrix A must be equal to the number of rows in Matrix B.
+    </p>
+
+    <button id="createMatrices">Create Matrices</button>
+  </div>
+
+  <p id="message"></p>
+
+  <div class="container" id="matrices" hidden>
+
+    <div class="matrix-area">
+      <h3>Matrix A</h3>
+      <table id="matrixA"></table>
+    </div>
+
+    <span class="operator">x</span>
+
+    <div class="matrix-area">
+      <h3>Matrix B</h3>
+      <table id="matrixB"></table>
+    </div>
+
+    <span class="operator">=</span>
+
+    <div class="matrix-area">
+      <h3>Result</h3>
+      <table id="result"></table>
+    </div>
+
+  </div>
+
+  <div class="buttons" id="buttons" hidden>
+    <button id="calculate">Calculate</button>
+    <button id="clear" class="gray">Clear</button>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

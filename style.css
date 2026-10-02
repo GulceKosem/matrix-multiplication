@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.matrix-area {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.matrix-area h3 {
+  margin-top: 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  padding: 3px;
+}
+
+input {
+  width: 55px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 14px;
+}
+
+.result-cell {
+  display: block;
+  width: 55px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #999;
+  background-color: #eaf4ea;
+  font-size: 14px;
+}
+
+.operator {
+  font-size: 28px;
+  color: #555;
+}
+
+.buttons {
+  margin-top: 25px;
+}
+
+button {
+  padding: 8px 20px;
+  font-size: 15px;
+  background-color: #2f6db5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #24578f;
+}
+
+button.gray {
+  background-color: #777;
+}
+
+button.gray:hover {
+  background-color: #5c5c5c;
+}
+
+#message {
+  color: red;
+  margin-top: 15px;
+}
+
+.size-area {
+  background-color: white;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 10px 25px 20px;
+  margin-bottom: 20px;
+}
+
+.size-area input {
+  width: 90px;
+}
+
+.info {
+  font-size: 13px;
+  color: #666;
+}
+
+[hidden] {
+  display: none !important;
+}
